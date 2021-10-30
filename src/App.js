@@ -13,6 +13,9 @@ import Services from "./components/Services";
 import Experience from "./components/Experience";
 
 import Portfolio from "./components/Portfolio";
+
+import Testimonials from "./components/Testimonials";
+
 function App() {
   return (
     <>
@@ -21,7 +24,7 @@ function App() {
           className: "particles-canvas",
           particles: {
             number: {
-              value: 30,
+              value: 60,
               density: {
                 enable: true,
                 value_area: 900,
@@ -35,6 +38,14 @@ function App() {
               },
             },
           },
+          interactivity: {
+            events: {
+              onhover: {
+                enable: true,
+                mode: "repulse",
+              },
+            },
+          },
         }}
       />
       <Navbar />
@@ -43,6 +54,7 @@ function App() {
       <Services />
       <Experience />
       <Portfolio />
+      <Testimonials />
     </>
   );
 }
