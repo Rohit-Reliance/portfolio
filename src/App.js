@@ -17,6 +17,8 @@ import Portfolio from "./components/Portfolio";
 import Testimonials from "./components/Testimonials";
 
 import Contacts from "./components/Contacts";
+
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
@@ -57,6 +59,7 @@ function App() {
       <Portfolio />
       <Testimonials />
       <Contacts />
+      <Footer />
     </>
   );
 }

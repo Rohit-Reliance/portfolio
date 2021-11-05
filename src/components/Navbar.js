@@ -1,13 +1,13 @@
 import React from "react";
-import logo from "../logo/logo.png";
-
+import logo from "../logo/webplus2.png";
+import { Link } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-light fixed-top">
       <div className="container">
         <a className="navbar-brand" href="#">
           <img className="logo" src={logo} alt="logo"></img>
@@ -27,34 +27,69 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav">
             <li className="nav-item active">
-              <a className="nav-link" href="#">
+              <Link smooth={true} to="home" className="nav-link" href="#">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link
+                smooth={true}
+                to="about"
+                offset={-110}
+                duration={500}
+                className="nav-link"
+                href="#"
+              >
                 About me
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link
+                smooth={true}
+                to="services"
+                offset={-110}
+                duration={500}
+                className="nav-link"
+                href="#"
+              >
                 Services
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link
+                smooth={true}
+                to="experience"
+                offset={-70}
+                duration={500}
+                className="nav-link"
+                href="#"
+              >
                 Experience
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link
+                smooth={true}
+                to="portfolio"
+                offset={-50}
+                duration={500}
+                className="nav-link"
+                href="#"
+              >
                 Portfolio
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link
+                smooth={true}
+                to="contacts"
+                offset={-40}
+                duration={500}
+                className="nav-link"
+                href="#"
+              >
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

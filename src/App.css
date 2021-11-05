@@ -21,6 +21,9 @@ nav ul li {
   text-transform: uppercase;
 }
 
+.bg-dark {
+  background-color: #212529 !important;
+}
 .navbar-nav > li > a {
   /* color: var(primary-white) !important; */
   margin-right: 0.75rem;
@@ -51,8 +54,12 @@ nav ul li {
 }
 nav {
   z-index: 2;
+  background-color: #1c1c1c;
 }
 
+nav img {
+  margin-top: 1.4rem;
+}
 /* ************Header********* */
 
 .header-wraper {
@@ -60,7 +67,7 @@ nav {
   background: url("./logo/wall-and-laptop-background.jpg") no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -82,6 +89,9 @@ nav {
   text-transform: uppercase;
 }
 
+.btn-main-offer {
+  padding: 0 !important;
+}
 @media (max-width: 768px) {
   .main-info h1 {
     font-size: 1.7rem !important;
@@ -159,7 +169,7 @@ nav {
 }
 
 .services h1 {
-  color: rgb(50, 50, 50);
+  color: #186fed;
   text-transform: uppercase;
 }
 .services .circle {
@@ -517,4 +527,23 @@ textarea.form-control {
   .contacts {
     overflow-x: hidden;
   }
+}
+/* ************Footer************ */
+.footer {
+  background: black;
+  color: #adadad;
+  padding: 3rem;
+}
+.footer a {
+  text-decoration: none;
+  color: #adadad;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: #186fed;
+  cursor: pointer;
+}
+.footer .d-flex p {
+  margin-bottom: 0rem !important;
 }
