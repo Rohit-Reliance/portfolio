@@ -18,7 +18,7 @@ const Portfolio = () => {
     const content = (
       <>
         <img className="portfolio-image-popupbox" src={netflix} alt="netflix" />
-        <p>fjasigyhseihg fhasighsougg puosauseoawriwrou foajsgjslgjg</p>
+        <p>First</p>
         <b>Github:</b>{" "}
         <a className="hyper-link" onClick={() => window.open("www.google.com")}>
           Google!
@@ -41,12 +41,8 @@ const Portfolio = () => {
   const popupfornetflix2 = () => {
     const content = (
       <>
-        <img
-          className="portfolio-image-popupbox"
-          src={netflix}
-          alt="netflix-2"
-        />
-        <p>fjasigyhseihg fhasighsougg puosauseoawriwrou foajsgjslgjg</p>
+        <img className="portfolio-image-popupbox" src={netflix} alt="Hotstar" />
+        <p>Second</p>
         <b>Github:</b>{" "}
         <a className="hyper-link" onClick={() => window.open("www.google.com")}>
           Google!
@@ -73,7 +69,7 @@ const Portfolio = () => {
           src={netflix}
           alt="netflix-3"
         />
-        <p>fjasigyhseihg fhasighsougg puosauseoawriwrou foajsgjslgjg</p>
+        <p>Third</p>
         <b>Github:</b>{" "}
         <a className="hyper-link" onClick={() => window.open("www.google.com")}>
           Google!

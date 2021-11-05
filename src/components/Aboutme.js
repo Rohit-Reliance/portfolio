@@ -16,11 +16,10 @@ function Aboutme() {
             Rohit Darwade has been with Accenture SAP teams since October 2019.
             He has 5+ years of experience in SAP as SAP FIORI and UI5 Developer.
             He has been part of Implementation, Application Maintenance, Upgrade
-            projects for clients across varied domains (Electronics, Oil-Gas,
-            Automotive) His SAP skills include SAP UI5, FIORI, JavaScript,
-            ODATA, CSS, HTML5, Angular 6, Worked with various applications SCM,
-            CRM, HR, FI, PM, PP, PPM, EPPM, EWM, HVC modules of SAP Rohit
-            Darwade holds a Bachelor’s degree in Computer Science
+            projects for clients across varied domains. His SAP skills include
+            SAP UI5, FIORI, JavaScript, ODATA, CSS, HTML5 Worked with various
+            applications SCM, CRM, HR, FI, PM, PP, PPM, EPPM, EWM, HVC modules
+            of SAP
           </p>
         </div>
       </div>
