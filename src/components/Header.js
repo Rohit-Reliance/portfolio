@@ -10,7 +10,7 @@ function Header() {
         <h1>Web Developer</h1>
         <Typed
           className="typed-text"
-          strings={["Web design", "Web development", "SAP Fiori", "SAP UI5"]}
+          strings={["Web design", "Web development"]}
           typeSpeed={40}
           backSpeed={60}
           loop
