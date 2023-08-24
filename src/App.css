@@ -99,6 +99,7 @@ nav img {
   padding: 0 !important;
 }
 @media (max-width: 768px) {
+  
   .main-info h1 {
     font-size: 1.7rem !important;
   }
@@ -162,7 +163,7 @@ nav img {
 
 @media (max-width: 468px) {
   .profile-img {
-    width: 10rem;
+    width: 20rem;
   }
 }
 

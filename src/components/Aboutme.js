@@ -13,13 +13,10 @@ function Aboutme() {
         <div className="col-lg-6 col-xm-12">
           <h1 className="about-heading">About Me</h1>
           <p>
-            Rohit Darwade has been with Accenture SAP teams since October 2019.
-            He has 5+ years of experience in SAP as SAP FIORI and UI5 Developer.
-            He has been part of Implementation, Application Maintenance, Upgrade
-            projects for clients across varied domains. His SAP skills include
-            SAP UI5, FIORI, JavaScript, ODATA, CSS, HTML5 Worked with various
-            applications SCM, CRM, HR, FI, PM, PP, PPM, EPPM, EWM, HVC modules
-            of SAP
+            Rohit has 8+ years of experience in Various technologies. He has
+            been part of Implementation, Application Maintenance, Upgrade
+            projects for clients across varied domains. His skills include
+            Angular, ReactJS, SAP UI5, FIORI, JavaScript, ODATA, CSS, HTML5.
           </p>
         </div>
       </div>
