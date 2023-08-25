@@ -1,5 +1,4 @@
 import React from "react";
-import hotstar from "../images/hotstar.jpg";
 import netflix from "../images/netflix.jpg";
 // Font awsome
 
@@ -119,7 +118,7 @@ const Portfolio = () => {
   return (
     <div id="portfolio" className="portfolio-wrapper">
       <div className="container">
-        <h1 className="text-uppercase text-center py-5">Portfolio</h1>
+        <h1 className="text-uppercase text-center py-5">Client</h1>
         <div className="image-box-wrapper justify-content-center">
           <div className="portfolio-image-box" onClick={popupfornetflix}>
             <img className="portfolio-image" src={netflix} alt="hotstar" />

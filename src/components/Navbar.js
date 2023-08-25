@@ -76,7 +76,7 @@ const Navbar = () => {
                 className="nav-link"
                 href="#"
               >
-                Portfolio
+                Client
               </Link>
             </li>
             <li className="nav-item">

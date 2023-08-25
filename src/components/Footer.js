@@ -74,7 +74,7 @@ const Footer = () => {
                   className="footer-nav"
                   href="#"
                 >
-                  Portfolio
+                  Client
                 </Link>
                 <br />
                 <Link
@@ -116,8 +116,8 @@ const Footer = () => {
             </div>
             <p className="pt-3 text-center">
               Copyright&copy;
-              {new Date().getFullYear()}&nbsp; WebPlus Technologies Pvt. Ltd. |
-              All Rights Reserved
+              {new Date().getFullYear()}&nbsp; Rohit Arun Darwade | All Rights
+              Reserved
             </p>
           </div>
         </div>
