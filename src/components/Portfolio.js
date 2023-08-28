@@ -1,5 +1,6 @@
 import React from "react";
 import netflix from "../images/netflix.jpg";
+import workinprogess from "../images/workinprogress.jpg";
 // Font awsome
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -16,7 +17,11 @@ const Portfolio = () => {
   const popupfornetflix = () => {
     const content = (
       <>
-        <img className="portfolio-image-popupbox" src={netflix} alt="netflix" />
+        <img
+          className="portfolio-image-popupbox"
+          src={workinprogess}
+          alt="work in progess"
+        />
         <p>First</p>
         <b>Github:</b>{" "}
         <a className="hyper-link" onClick={() => window.open("www.google.com")}>
@@ -40,7 +45,11 @@ const Portfolio = () => {
   const popupfornetflix2 = () => {
     const content = (
       <>
-        <img className="portfolio-image-popupbox" src={netflix} alt="Hotstar" />
+        <img
+          className="portfolio-image-popupbox"
+          src={workinprogess}
+          alt="work in progress"
+        />
         <p>Second</p>
         <b>Github:</b>{" "}
         <a className="hyper-link" onClick={() => window.open("www.google.com")}>
@@ -65,8 +74,8 @@ const Portfolio = () => {
       <>
         <img
           className="portfolio-image-popupbox"
-          src={netflix}
-          alt="netflix-3"
+          src={workinprogess}
+          alt="work in progess"
         />
         <p>Third</p>
         <b>Github:</b>{" "}
@@ -93,8 +102,8 @@ const Portfolio = () => {
       <>
         <img
           className="portfolio-image-popupbox"
-          src={netflix}
-          alt="netflix-4"
+          src={workinprogess}
+          alt="work in progress"
         />
         <p>Netflix 4</p>
         <b>Github:</b>{" "}
@@ -121,25 +130,41 @@ const Portfolio = () => {
         <h1 className="text-uppercase text-center py-5">Client</h1>
         <div className="image-box-wrapper justify-content-center">
           <div className="portfolio-image-box" onClick={popupfornetflix}>
-            <img className="portfolio-image" src={netflix} alt="hotstar" />
+            <img
+              className="portfolio-image"
+              src={workinprogess}
+              alt="hotstar"
+            />
             <div className="overflow" />
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>
           {/* - */}
           <div className="portfolio-image-box" onClick={popupfornetflix2}>
-            <img className="portfolio-image" src={netflix} alt="hotstar" />
+            <img
+              className="portfolio-image"
+              src={workinprogess}
+              alt="hotstar"
+            />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>
           {/* - */}
           <div className="portfolio-image-box" onClick={popupfornetflix3}>
-            <img className="portfolio-image" src={netflix} alt="netflix" />
+            <img
+              className="portfolio-image"
+              src={workinprogess}
+              alt="netflix"
+            />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>
           {/* - */}
           <div className="portfolio-image-box" onClick={popupfornetflix4}>
-            <img className="portfolio-image" src={netflix} alt="netflix" />
+            <img
+              className="portfolio-image"
+              src={workinprogess}
+              alt="netflix"
+            />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>

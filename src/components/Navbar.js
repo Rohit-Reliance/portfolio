@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../logo/webplus2.png";
+import logo from "../logo/site_icon.png";
 import { Link } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -10,7 +10,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-light fixed-top">
       <div className="container">
         <a className="navbar-brand" href="#">
-          <img className="logo" src={logo} alt="logo"></img>
+          <img className="logo-navbar" src={logo} alt="logo"></img>
         </a>
         <button
           className="navbar-toggler"
