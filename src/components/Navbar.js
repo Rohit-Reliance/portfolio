@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../logo/site_icon.png";
+import logo from "../logo/myphoto-copy-3.jpg";
 import { Link } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
